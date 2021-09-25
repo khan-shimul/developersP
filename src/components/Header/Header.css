@@ -1,0 +1,38 @@
+.nav-color{
+    background-color: #EDF1FD;
+}
+
+.logo{
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-menu{
+    color: #3B3B3B;
+    transition: 0.3s;
+}
+.nav-menu:hover{
+    color: #204ECF;
+}
+
+.search-field{
+    width: 200px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+.search-field:focus{
+    width: 250px;
+}
+
+.btn-regular{
+    background-color: #00CC83;
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.4s;
+    font-size: 15px;
+}
+.btn-regular:hover{
+    background-color: #05947C;
+}
