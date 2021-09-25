@@ -1,0 +1,21 @@
+.hero-section{
+    background-color: #EDF1FD;
+    text-align: center;
+    padding: 25px;
+}
+
+.hero-title{
+    color: #183A9E;
+    font-size: 35px;
+}
+.thin-text{
+    font-weight: 300;
+}
+
+.total-budget{
+    width: 400px;
+    font-size: 20px;
+}
+.total-budget:hover{
+    background-color: #05947C;
+}
