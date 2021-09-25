@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg nav-color">
+            <nav className="navbar fixed-top nv navbar-expand-lg nav-color">
                 <div className="container">
                     <a className="navbar-brand logo" href="/home">World Devs</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

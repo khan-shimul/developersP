@@ -1,8 +1,13 @@
+.nv{
+    height: 60px;
+}
+
 .nav-color{
     background-color: #EDF1FD;
 }
 
 .logo{
+    font-size: 25px;
     font-weight: 600;
     transition: 0.3s;
 }
