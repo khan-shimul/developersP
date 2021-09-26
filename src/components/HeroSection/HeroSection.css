@@ -26,10 +26,18 @@
 .total-budget{
     width: 400px;
     font-size: 20px;
+    background-color: #00CC83;
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.4s;
+    font-size: 15px;
+    
 }
-.total-budget:hover{
+/* .total-budget:hover{
     background-color: #05947C;
-}
+} */
 
 .no-risk{
     color: #6e6e6e;
