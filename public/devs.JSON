@@ -3,7 +3,7 @@
         "id": 101,
         "name": "Andre J. Depalma",
         "title": "Software Engineer",
-        "img": "https://images.unsplash.com/photo-1587837073080-448bc6a2329b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "img": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
         "address": "3154 Jerome Avenue, USA",
         "hourlyRate": 61
     },
@@ -91,7 +91,7 @@
         "id": 112,
         "name": "Sandra H. Cutts",
         "title": "PHP Developer",
-        "img": "https://images.unsplash.com/photo-1599839575338-31b11ae2cd16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80",
+        "img": "https://images.unsplash.com/photo-1616769364512-1e50e8266907?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=399&q=80",
         "address": "5 Byrd Lane, PAK",
         "hourlyRate": 32
     }
