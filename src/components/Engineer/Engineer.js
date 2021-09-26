@@ -4,17 +4,24 @@ import './Engineer.css'
 const Engineer = (props) => {
     // console.log(props.handleHire)
 
-    const { name, img, address, title, hourlyRate } = props.engineer
+    const { name, img, address, title, hourlyRate, description, age, rating } = props.engineer
 
     return (
         <div className="col-md-4 g-4">
             <div className="card h-100 text-center">
                 <img src={img} className="card-img-top devs-img" alt="..." />
-                <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <p className="card-text">{title}</p>
-                    <address><p><small>{address}</small></p></address>
-                    <p>Hourly Rate: ${hourlyRate}</p>
+                <div className="card-body dev-details">
+                    <ul>
+                        <li className="name-text">{name}</li>
+                        <li className="title">{title}</li>
+                    </ul>
+                    <div className="d-flex justify-content-center">
+                        <p className="d-inline me-2"><small>Age: {age}</small></p>
+                        <address><p><small><i class="fas fa-map-marker-alt"></i> USA</small></p></address>
+                    </div>
+                    <p className="hourly"><span className="hr-text">Hourly Rate:</span> ${hourlyRate}</p>
+
+                    {/* <p>{description.slice(0, 100)}</p> */}
                     <button
                         onClick={() => props.handleHire(props.engineer)}
                         className="btn-regular"

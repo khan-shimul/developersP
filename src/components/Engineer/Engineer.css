@@ -7,3 +7,27 @@
     margin: 0 auto;
     margin-top: 10px;
 }
+
+.dev-details ul{
+    list-style: none;
+}
+
+.name-text{
+    font-weight: 600;
+    font-size: 18px;
+    color: #406ad3;
+}
+
+.title{
+    color: #676767;
+    font-size: 13px;
+}
+
+.hourly{
+    margin-top: -20px;
+}
+
+.hr-text{
+    color: #5c5c5c;
+    font-size: 13px;
+}
