@@ -17,7 +17,7 @@ const Engineer = (props) => {
                     </ul>
                     <div className="d-flex justify-content-center">
                         <p className="d-inline me-2"><small>Age: {age}</small></p>
-                        <address><p><small><i class="fas fa-map-marker-alt"></i> {address}</small></p></address>
+                        <address><p><small><i className="fas fa-map-marker-alt"></i> {address}</small></p></address>
                     </div>
                     <p className="hourly"><span className="hr-text">Hourly Rate:</span> ${hourlyRate}</p>
                     {/* <p>{description.slice(0, 100)}</p> */}
@@ -25,7 +25,7 @@ const Engineer = (props) => {
                         onClick={() => props.handleHire(props.engineer)}
                         className="btn-regular"
                     >
-                        Hire Me <i class="fas fa-arrow-left"></i></button>
+                        Hire Me <i className="fas fa-arrow-left"></i></button>
                 </div>
             </div>
         </div>
