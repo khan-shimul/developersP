@@ -14,7 +14,7 @@ const Hire = (props) => {
     // }
     return (
         <div className="bg-primary text-white p-3 rounded">
-            <h5>Selected: {hireDevs.length}</h5>
+            <h5><i class="fas fa-user"></i> Selected: {hireDevs.length}</h5>
             <p>Total: ${total}</p>
 
             {

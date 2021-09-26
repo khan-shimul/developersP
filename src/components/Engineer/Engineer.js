@@ -19,7 +19,7 @@ const Engineer = (props) => {
                         onClick={() => props.handleHire(props.engineer)}
                         className="btn-regular"
                     >
-                        Hire Me</button>
+                        Hire Me <i class="fas fa-arrow-left"></i></button>
                 </div>
             </div>
         </div>
