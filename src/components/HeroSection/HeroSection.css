@@ -3,14 +3,24 @@
     text-align: center;
     padding: 25px;
     margin-top: 60px;
+    height: 400px;
 }
 
 .hero-title{
     color: #183A9E;
-    font-size: 35px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 25px;
 }
 .thin-text{
     font-weight: 300;
+}
+
+.short-about{
+    color: #7A7A7A;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .total-budget{
@@ -19,4 +29,11 @@
 }
 .total-budget:hover{
     background-color: #05947C;
+}
+
+.no-risk{
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -20px;
 }

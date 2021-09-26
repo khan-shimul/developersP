@@ -2,7 +2,7 @@ import React from 'react';
 import './Engineer.css'
 
 const Engineer = (props) => {
-    console.log(props.engineer)
+    // console.log(props.handleHire)
 
     const { name, img, address, title, hourlyRate } = props.engineer
 
@@ -15,7 +15,11 @@ const Engineer = (props) => {
                     <p className="card-text">{title}</p>
                     <address><p><small>{address}</small></p></address>
                     <p>Hourly Rate: ${hourlyRate}</p>
-                    <button className="btn-regular">Hire Me</button>
+                    <button
+                        onClick={() => props.handleHire(props.engineer)}
+                        className="btn-regular"
+                    >
+                        Hire Me</button>
                 </div>
             </div>
         </div>
