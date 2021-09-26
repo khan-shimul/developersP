@@ -20,26 +20,28 @@ const Engineers = () => {
     }
 
     return (
-        <div className="container row d-flex mx-auto">
-            <div className="engineer-container col-md-9">
-                <p className="mt-4"><small>HIRE FREELANCE DEVELOPERS AND ENGINEERS</small></p>
+        <div className="mx-4">
+            <div className="row d-flex mx-auto">
+                <div className="engineer-container col-md-9">
+                    <p className="mt-4"><small>HIRE FREELANCE DEVELOPERS AND ENGINEERS</small></p>
 
-                <div className="row">
-                    {
-                        engineers.map(engineer => <Engineer
-                            key={engineer.id}
-                            engineer={engineer}
-                            handleHire={handleHire}
-                        />)
-                    }
+                    <div className="row">
+                        {
+                            engineers.map(engineer => <Engineer
+                                key={engineer.id}
+                                engineer={engineer}
+                                handleHire={handleHire}
+                            />)
+                        }
+                    </div>
                 </div>
-            </div>
 
-            <div className="hire-container col-md-3">
-                <Hire
-                    hireDevs={hireDevs}
-                    key={hireDevs.id}
-                />
+                <div className="hire-container col-md-3">
+                    <Hire
+                        hireDevs={hireDevs}
+                        key={hireDevs.id}
+                    />
+                </div>
             </div>
         </div>
     );
