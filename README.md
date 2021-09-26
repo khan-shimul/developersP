@@ -1,4 +1,4 @@
-# World-Devs
+# Developers
 
 Here is the live project [Developers](https://w-developers.netlify.app/).
 
