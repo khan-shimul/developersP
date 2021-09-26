@@ -1,16 +1,16 @@
+/* Card style */
 .eng-card{
     background-image: linear-gradient(to bottom right, #bcc6f08c, #9fffed6b);
     border: none;
-    transition: 0.3s;
-    transition-delay: 0.2s;
+    transition: 0.8s;
+    /* transition-delay: 0.2s; */
 }
-
 .eng-card:hover{
     border: 1px solid #7897c4;
     border-radius: 10px;
     box-shadow: 8px 8px 5px rgba(240, 240, 240, 0.767);;
 }
-
+/* image circular */
 .devs-img{
     border-radius: 50%;
     height: 200px;
@@ -21,6 +21,7 @@
     margin-top: 10px;
 }
 
+/* info style */
 .dev-details ul{
     list-style: none;
 }
@@ -44,7 +45,7 @@
     color: #5c5c5c;
     font-size: 13px;
 }
-
+/* hire me btn */
 .hire-me-btn{
     /* background-color: #5572ca; */
     background-image: linear-gradient(to right, #4d71dd , #5e7bd3);
@@ -53,6 +54,7 @@
     border: #FB3E99;
     border-radius: 5px;
     font-size: 15px;
+    transition: 0.3s;
 }
 .hire-me-btn:hover{
     background-image: linear-gradient(to right, #3a62d8 , #4c6cce);

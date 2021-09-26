@@ -10,8 +10,10 @@ const Hire = (props) => {
 
     return (
         <div className="hire-bg text-white p-3 rounded">
-            <h5><i className="fas fa-user"></i> Selected: {hireDevs.length}</h5>
-            <p>Total: ${total}</p>
+            <div className="text-center">
+                <h5><i className="fas fa-user"></i> Selected: {hireDevs.length}</h5>
+                <p>Total: ${total}</p>
+            </div>
 
             {
                 hireDevs.map(dev => <DisplayEngineer

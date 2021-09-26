@@ -7,7 +7,7 @@ const Engineer = (props) => {
     const { name, img, title, hourlyRate, address, age } = props.engineer
 
     return (
-        <div className="col-md-4 g-4">
+        <div className="col-md-4 g-4 mb-3">
             <div className="card h-100 text-center eng-card">
                 <img src={img} className="card-img-top devs-img" alt="..." />
                 <div className="card-body dev-details">
@@ -20,7 +20,6 @@ const Engineer = (props) => {
                         <address><p><small><i className="fas fa-map-marker-alt"></i> {address}</small></p></address>
                     </div>
                     <p className="hourly"><span className="hr-text">Hourly Rate:</span> ${hourlyRate}</p>
-                    {/* <p>{description.slice(0, 100)}</p> */}
                     <button
                         onClick={() => props.handleHire(props.engineer)}
                         className="hire-me-btn"
