@@ -4,7 +4,7 @@ import './Engineer.css'
 const Engineer = (props) => {
     // console.log(props.handleHire)
 
-    const { name, img, address, title, hourlyRate, description, age, rating } = props.engineer
+    const { name, img, title, hourlyRate, address, age } = props.engineer
 
     return (
         <div className="col-md-4 g-4">
@@ -17,10 +17,9 @@ const Engineer = (props) => {
                     </ul>
                     <div className="d-flex justify-content-center">
                         <p className="d-inline me-2"><small>Age: {age}</small></p>
-                        <address><p><small><i class="fas fa-map-marker-alt"></i> USA</small></p></address>
+                        <address><p><small><i class="fas fa-map-marker-alt"></i> {address}</small></p></address>
                     </div>
                     <p className="hourly"><span className="hr-text">Hourly Rate:</span> ${hourlyRate}</p>
-
                     {/* <p>{description.slice(0, 100)}</p> */}
                     <button
                         onClick={() => props.handleHire(props.engineer)}

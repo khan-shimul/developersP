@@ -5,7 +5,7 @@
         "age": 26,
         "title": "Software Engineer",
         "img": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        "address": "3154 Jerome Avenue, USA",
+        "address": "USA",
         "hourlyRate": 61,
         "rating": 4.5,
         "description": "Hi i am a Software Engineer. A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes used as a synonym, but may also lack connotations of engineering education or skills."
@@ -16,7 +16,7 @@
         "age": 29,
         "title": "React Developer",
         "img": "https://images.unsplash.com/photo-1587837073080-448bc6a2329b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "address": "3445 Camel Back Road, UK",
+        "address": "UK",
         "hourlyRate": 47,
         "rating": 3,
         "description": "Hi i am a React Developer. A React developer is simply a frontend developer that has extensive experience using React and React Native. They are able to apply their knowledge of JavaScript to create user interfaces that delight users. Full-Stack React developers are also proficient with using MongoDB, Express, and Node."
@@ -27,7 +27,7 @@
         "age": 26,
         "title": "Front End Developer",
         "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
-        "address": "470 Green Acres Road, UK",
+        "address": "USA",
         "hourlyRate": 55,
         "rating": 3.5,
         "description": "Hi i am a Front End Developer. Front-end development is used for designing the part of a website that a user sees. The front-end developer will turn designs created by a web designer into a functional, aesthetically pleasing user interface. Front-end web developers use HTML, CSS, and JavaScript to design web pages."
@@ -38,7 +38,7 @@
         "age": 24,
         "title": "React Developer",
         "img": "https://images.unsplash.com/photo-1563351672-62b74891a28a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "address": "1559 Cameron Road, USA",
+        "address": "USA",
         "hourlyRate": 35,
         "rating": 4,
         "description": "Hi i am a React Developer. A React developer is simply a frontend developer that has extensive experience using React and React Native. They are able to apply their knowledge of JavaScript to create user interfaces that delight users. Full-Stack React developers are also proficient with using MongoDB, Express, and Node."
@@ -49,7 +49,7 @@
         "age": 21,
         "title": "Software Developer",
         "img": "https://images.unsplash.com/photo-1507081323647-4d250478b919?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
-        "address": "New York, NY 10005",
+        "address": "BD",
         "hourlyRate": 65,
         "rating": 2.5,
         "description": "Hi i am a Software Developer. A software developer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes used as a synonym, but may also lack connotations of engineering education or skills."
@@ -60,7 +60,7 @@
         "age": 27,
         "title": "Web Developer",
         "img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80",
-        "address": "866 Bryan Street, BD",
+        "address": "IND",
         "hourlyRate": 25,
         "rating": 3.5,
         "description": "Hi i am a Web Developer. Web developers are responsible for designing and developing websites and website applications. Using a variety of programming languages and web technologies, web developers manage site functionality, implement application features, and integrate security measures."
@@ -71,7 +71,7 @@
         "age": 25,
         "title": "Software Engineer",
         "img": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80",
-        "address": "Emily B. Munoz, Eng",
+        "address": "ENG",
         "hourlyRate": 60,
         "rating": 4,
         "description": "Hi i am a Software Engineer. A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes used as a synonym, but may also lack connotations of engineering education or skills."
@@ -82,7 +82,7 @@
         "age": 28,
         "title": "Web Developer",
         "img": "https://images.unsplash.com/photo-1520341280432-4749d4d7bcf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "address": "4033 Hedge Street, USA",
+        "address": "USA",
         "hourlyRate": 51,
         "rating": 4.5,
         "description": "Hi i am a Web Developer. Web developers are responsible for designing and developing websites and website applications. Using a variety of programming languages and web technologies, web developers manage site functionality, implement application features, and integrate security measures."
@@ -93,7 +93,7 @@
         "age": 22,
         "title": "React Developer",
         "img": "https://images.unsplash.com/photo-1549492864-2ec7d66ffb04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1034&q=80",
-        "address": "4819 Jessie Street, IND",
+        "address": "IND",
         "hourlyRate": 50,
         "rating": 3,
         "description": "Hi i am a React Developer. A React developer is simply a frontend developer that has extensive experience using React and React Native. They are able to apply their knowledge of JavaScript to create user interfaces that delight users. Full-Stack React developers are also proficient with using MongoDB, Express, and Node."
@@ -104,7 +104,7 @@
         "age": 27,
         "title": "Web Developer",
         "img": "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=721&q=80",
-        "address": "1538 Lake Road, BD",
+        "address": "BD",
         "hourlyRate": 45,
         "rating": 4.5,
         "description": "Hi i am a Web Developer. Web developers are responsible for designing and developing websites and website applications. Using a variety of programming languages and web technologies, web developers manage site functionality, implement application features, and integrate security measures."
@@ -115,7 +115,7 @@
         "age": 33,
         "title": "Junior Software Engineer",
         "img": "https://images.unsplash.com/photo-1556474835-b0f3ac40d4d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        "address": "3294 Armory Road, SL",
+        "address": "SL",
         "hourlyRate": 25,
         "rating": 3.5,
         "description": "Hi i am a Software Engineer. A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes used as a synonym, but may also lack connotations of engineering education or skills."
@@ -126,7 +126,7 @@
         "age": 23,
         "title": "PHP Developer",
         "img": "https://images.unsplash.com/photo-1616769364512-1e50e8266907?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=399&q=80",
-        "address": "5 Byrd Lane, PAK",
+        "address": "PAK",
         "hourlyRate": 32,
         "rating": 4.5,
         "description": "Hi i am a PHP Developer. A PHP developer is responsible for writing server-side web application logic. PHP developers usually develop back-end components, connect the application with the other (often third-party) web services, and support the front-end developers by integrating their work with the application."
