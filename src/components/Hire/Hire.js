@@ -3,16 +3,11 @@ import DisplayEngineer from '../DisplayEngineer/DisplayEngineer';
 import './Hire.css'
 
 const Hire = (props) => {
-    console.log(props.hireDevs)
     const { hireDevs } = props
 
-    const totalReducer = (previousValue, currentValue) => previousValue + currentValue.hourlyRate;
+    const totalReducer = (previous, engineer) => previous + engineer.hourlyRate;
     const total = hireDevs.reduce(totalReducer, 0)
 
-    // let total = 0;
-    // for (const dev of hireDevs) {
-    //     total = total + dev.hourlyRate;
-    // }
     return (
         <div className="hire-bg text-white p-3 rounded">
             <h5><i className="fas fa-user"></i> Selected: {hireDevs.length}</h5>
@@ -20,6 +15,7 @@ const Hire = (props) => {
 
             {
                 hireDevs.map(dev => <DisplayEngineer
+                    key={dev.id}
                     dev={dev}
                 />)
             }
