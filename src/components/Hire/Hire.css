@@ -1,4 +1,17 @@
 .hire-bg{
-    background-color: #262D3D;
-    /* width: 350px; */
+    background-color: #323744;
+}
+
+.btn-confirm{
+    background-color: transparent;
+    padding: 6px 18px;
+    color: white;
+    border: none;
+    border: 1px solid #f37836;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.btn-confirm:hover{
+    background-color: #f37836;
+    border: 1px solid #f37836;
 }

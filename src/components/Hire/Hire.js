@@ -20,7 +20,7 @@ const Hire = (props) => {
                 />)
             }
 
-            <button className="btn-regular d-flex mx-auto mt-3">Confirm</button>
+            <button className="btn-confirm d-flex mx-auto mt-3">Confirm</button>
         </div >
     );
 };

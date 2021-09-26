@@ -8,7 +8,7 @@ const Engineer = (props) => {
 
     return (
         <div className="col-md-4 g-4">
-            <div className="card h-100 text-center">
+            <div className="card h-100 text-center eng-card">
                 <img src={img} className="card-img-top devs-img" alt="..." />
                 <div className="card-body dev-details">
                     <ul>
@@ -23,7 +23,7 @@ const Engineer = (props) => {
                     {/* <p>{description.slice(0, 100)}</p> */}
                     <button
                         onClick={() => props.handleHire(props.engineer)}
-                        className="btn-regular"
+                        className="hire-me-btn"
                     >
                         Hire Me <i className="fas fa-arrow-left"></i></button>
                 </div>
