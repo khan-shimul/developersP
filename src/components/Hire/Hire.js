@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hire.css'
 
 const Hire = (props) => {
     console.log(props.hireDevs)
@@ -12,7 +13,7 @@ const Hire = (props) => {
     //     total = total + dev.hourlyRate;
     // }
     return (
-        <div className="bg-primary text-white p-3">
+        <div className="bg-primary text-white p-3 rounded">
             <h5>Selected: {hireDevs.length}</h5>
             <p>Total: ${total}</p>
 
@@ -20,7 +21,7 @@ const Hire = (props) => {
                 hireDevs.map(dev => <li>{dev.name}</li>)
             }
 
-            <button className="btn-regular d-flex mx-auto mt-2">Confirm</button>
+            <button className="btn-regular d-flex mx-auto mt-3">Confirm</button>
         </div >
     );
 };

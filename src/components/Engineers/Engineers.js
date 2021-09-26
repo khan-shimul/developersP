@@ -35,8 +35,7 @@ const Engineers = () => {
                 </div>
             </div>
 
-            <div className="hire-container col-md-3 mt-4">
-                <h2>Hired</h2>
+            <div className="hire-container col-md-3">
                 <Hire
                     key={hireDevs.id}
                     hireDevs={hireDevs}
